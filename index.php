@@ -17,7 +17,9 @@
 <?php endwhile; else: ?>
 
 <p><?php _e("No such post could be found."); ?></p>
+
 <?php endif; #FUCK YINZ!!!!!!!!!!!! ?>
+
 </div>
 
 <?php get_sidebar(); ?>
