@@ -1,0 +1,78 @@
+body {
+    text-align: left; background-color: #CC9966; background-image: url("/background.jpg");
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 15px;
+}
+
+a {text-decoration: none; color: #3d49C0; }
+a:visited {text-decoration: none; }
+a:hover {text-decoration: underline;}
+
+p {margin: 15px 25px; line-height: 22px; font-family:Arial, Helvetica, sans-serif;}
+
+#wrapper {display: block; width:90%; margin:0px auto;
+	}
+
+#header { background-color: #FDFDFD; background-image: url("/header-image.jpg"); border: 2px solid #664422; height: 200px;
+	margin: 30px auto 10px auto; width: 896px;
+	}
+#header #headerlink {display: block; position: relative; border: none;  left: 20px; top: 10px; height: 75px; width: 600px;}
+#header h1 {margin: -30px 0 15px 25px; text-indent: -9999em;}
+#header h2 {font-family: "Courier New", Courier, monospace; font-size: 1.2em; margin: 20px 0 15px 25px; width: 600px;}
+
+.menu ul {padding: 0px; margin: 0px 0px 0px 0px;}
+.menu ul li {float: left; position: relative; list-style-type: none; margin: 0px 5px; }
+.menu ul li.current_page_item a, .menu ul li.current_page_item a:hover {background-color: #192d50; color: #EEEEEE;}
+
+.menu ul li a {display: block; padding: 0 10px; line-height: 40px; vertical-align:middle; text-align: center; border: 1px solid #666666; background-color: #FDFDFD; color: #001144;}
+.menu ul li a:hover {text-decoration: none; background-color: #798dC0; color: #EEEEEE; }
+#main { margin: 0 auto; width: 900px; 
+}
+
+#category-title {font-size: 1.1em; font-family: "Courier New", Courier, monospace; margin: 15px 0 15px 10px;}
+
+#content {background-color: #FFFFFF; border: 2px #664422 solid; float: left; margin: 0 10px 0 0; width: 700px;   
+}
+#content .post div {margin: 15px 25px;}
+#content .post h2 {margin: 20px 40px 20px 15px; font-family:"Courier New", Courier, monospace; line-height: 40px; font-weight: bold; font-size: 1.5em; color: #EEBB88;
+		background-color: #192d50; text-indent: 10px; border: 1px solid #596d90;}
+#content .post h2 a {text-decoration: none; color: #FFFFFF; }
+#content .post h2 a:hover {color: #BB8855;}
+#content .post p {}
+#content .post .postdetails {font-size: .9em; font-style:italic; margin-top: 20px;}
+#content .post .postedon {text-align: right; font-size: .9em; font-style:italic;}
+
+#content-wide {background-color: #FFFFFF; border: 2px #664422 solid; margin: 0 10px 0 0; width: 896px;}
+#content-wide p {;}
+#content-wide h1 {margin: 25px 10px; font-family: "Courier New", Courier, monospace;}
+
+#content li, #content-wide li {background-image: url("/images/new-bullet-b.png"); background-position: 0px 5px; background-repeat: no-repeat; text-indent: 0px;
+		list-style-type:none; margin: 15px 5px 10px 10px; padding: 0px 0px 0px 20px;}
+
+#sidebar {background-color: #FDFDFD; border: 2px #664422 solid; float: right; margin: 0 0 0 0; width: 180px;}
+#sidebar .sidebartitle {font-size: 1.0em; margin: 10px 5px 10	px 5px; color: #996633;}
+#sidebar ul {padding: 0px; }
+#sidebar ul li {background-image: url("/images/new-bullet-b.png"); background-position: 0px 4px; background-repeat: no-repeat; font-size: .8em; padding: 0px 0px 0px 20px;
+		list-style-type:none; margin: 10px 5px 5px 5px;}
+
+#delimiter {
+    clear: both;
+}
+
+#footer {background-color: #FDFDFD; border: 2px solid #664422; margin: 30px auto 20px auto; width: 896px;
+}
+#footer p {margin: 10px 30px; font-style: italic; font-size: .8em; }
+
+.page-title {
+	
+}
+
+.title {
+    font-size: 11pt;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.code { font-family: "Courier New", Courier, monospace; color: #444444; }
+.codebox {padding: 5px 10px; background: #EEEEEE; border: 2px solid #E0E0E0;font-family: "Courier New", Courier, monospace; color: #444444;}
+.codebox p {font-family: "Courier New", Courier, monospace; color: #444444; }
+
